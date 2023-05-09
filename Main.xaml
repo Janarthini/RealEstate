@@ -1,0 +1,126 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="612,463.3333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="546,952" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Location" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,246" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter Us City Name" Title="Get Location">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[Location]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Property Rates - Property Index and Prices - Real Estate Trends" sap:VirtualizedContainerService.HintSize="484,555.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="c4964e19-cfab-4562-a692-26ca02fe1718" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,336" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="c4964e19-cfab-4562-a692-26ca02fe1718" Text="[Location]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.99acres.com/property-rates-and-price-trends-prffid?nn_medium=search&amp;nn_account=google_commercial&amp;nn_campaign=17679475647_139319785875&amp;nn_keyword=&amp;nn_adnetwork=_&amp;nn_adtype=Search&amp;nn_placement=&amp;gclid=CjwKCAjw3ueiBhBmEiwA4BhspJPB3-Ao_YyJA1LekOVHZcqLoC0CXUrS0lEnob2L-F6LUWI_JhfwghoC730QAvD_BwE" CvTextArgument="Enter a city, locality or society" CvType="Text" DesignTimeRectangle="598, 689, 435, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl class='caption_strong_large' parentid='app' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl class='caption_strong_large' parentid='app' tag='INPUT' type='text' aaname='' /&gt;" Guid="ec816e0a-1f55-4ce9-aed1-c26fce5250e9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAbcAAAA3CAYAAACPUASHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAvtSURBVHhe7Z3ta9vIFsbvP22CoJggQs0iSl3qQrMgiii4UIf6UvdDloiyDpslLlT5EIJLvHAdrkswxCWIxZcgwrkz0owtyaNXO2mifX4giGVZM3Nm5jzznn8RAAAAUDEgbgAAACoHxA0AAEDlgLgBAACoHBA3AAAAlQPiBgAAoHJA3AAAAFQOiBsAAIDKAXEDAABQOSBuAAAAKgfEDQAAQOWAuAEAAKgcEDcAAACVA+IGAACgckDcAAAAVA6IGwAAgMoBcQMAAFA5IG4AAAAqB8QNAABA5YC4PQRuXZqcDWkyF59/FqcW1Wo1sk7F5wfG6dsai59Fkeh5MxqdjGh2Kz6DzfJQyiYABSkhbqdkMQfInWDSZRxMxbMgF2ftwHbvhuLGT+IRitvsc9OPc/PzTNwBG+WhlE0AClJe3OpNMt+1qa249s9c8WxZxtQzdunoSnysOtcOWYZB1teY3dwBmTtduje38hh7bhf71Nxp0v6F+Cy5b9tVlaSyWRD32CT9A3ID3B/lxc2w6c76Z+cdqtcMsv/hHUD3j9aqM79LHqO4JXDvtgMpuHT0iuXdW+QGuD/uXty8ObnunDz58XJEzonjX6Pvy/sLPJdO3+nMMTWo95fLfhtc85UH2aM/xjRMexcnHv61/M2IpsofxGC/n10MRZyHNP6R50erePMJjURcnbMxzcIJuvVoztN4Iz5zbqZkv+TO3KSBsIGfDi941lUZRHLD06y2WSpZ4sZsMTkXaWD2m+QIIJxHzvkkmkZJThur59wUaU2y3f+y7eL9LZ4Vn1Nh+Za3bPD3LtLOfjcVdjz9b3aPyJvPaHwmbMjDuUqJX5k8Klo2w9yE4sbzVxGcd2lTi/uMNwORF+z6mz2Yo5wWyg8AQty9uPkOs0n2xZh6LzTfeYYvzejSUE5WX/WpuRX9Xl4Rh+tNqP8rF8DoM5F3SWT4zCEM9xqh57Na9TMavNFJC71fXtoLlva8CxgS4srFe/9SPDO1yWD3FnOV3zrKcGt+b3ZCvafs73qHhso4eOS84c82qX8tbuUlUdw8mhzukq7IG/3XI7Ut3CF1jdX8rm1Z5Cw8VTEbK8UtHuc02532qMH+rr9PGB67ccjkaXzRZ32NdNyzLhlaPIyEMshqim2w7/m81eUR7W4vn0+fn2Zl9oOhTs+TNg0jHr9EHpUpmwsSwtMM6n5bGmD4XlEG+MX9x/fN5QcAce5J3NjzWxo13jnLliTroY0+BosB4oV7emCw+0nDknMamPx9OlnHU/L8SuuRe94LhNHYj1ZkP/wGWW9ZWNu7ZJ/Pli3HDCa/W9Q9DrVkQ3FufJoE91JhTu05i1NNo+a/T2nih8lawldjco6Hywqb4ECShuHcwyAO5ldFGqRDMAcspIIkiFswxMfy6bVNo+uQLQ52qc7u87Ai/vxmSG3uwHkeHQr78R7A9xH1T8bioYAiNs4lbgK17Vzqv+DxMslR9ES8r6b/LvNLhuX8YXP2nl/a5FyKZ3lv7GubGtz2T3s0joiJELfXFlnMLn49ED2Y1F6LiE/z44hc+Zzfy3XIZjYLUziP1iyb8y9B3HRrQFNhS+96RD3/ncZSHH2Ez1gZltxQfgCg4A4WlBxRxCVJcVO2vkSlZ72QkbjDSRU31jLnlVXV4lU6/YW4mjRYaVGX4JalnzuwV0eK9MQQcW18jDqiFQqK20LA3jgrAiadnFL4slAJxe2QOnUW1orDDhh/5L3hOnW+iRuMRT58KWnwBBuvL24hh7liHzEvlOBolywdsqo8SaffPAzHXJRzdj+zLIQI6gHr6ap6XWFK5NFaZVOGp2rgXvepyZ6Pls0kcdtEfgCgpry4JV5q55O0VFvlhNLEbbRXZ9+16EilLJf7wTDHXkgqRfh6AaeSjnBUOXquw3c8bUk90BBFxY0xfM/tEB96FI43ccgyA5VQiKXgqsaEj4j7cqn4LOgRbLF4l4mDj9rGmxC3hWOON7aEU04cIpNc2YHzTlocIYX5uc0sIZHixgSxgKOWjr+xx3pSabYsnEdrlk3Rc239oaqEU9r/hb070mBNFre18wOABO5tWDLufCTFxE04zppG9R2d9Pili/H9cCXKCD8dj9yLIfU/yV6pRS1DJ407r8z0y7iqxSlCCXGTDibym3UdgsJWch9Zsv1EeVg48yG1c9lHkt/GGxE3RtBAipavoLcZ692oyBISFmNfyLbaoW0I+RtEUeZicRX7raZT68OAxnLIMUTxPFqvbMrwtG1FHWSXn3eRd6eIG2Ot/AAggUcmbrIF3KBWZCg0dv0ZGhgtK2584l/nYTEhNVpkiXd3D/bJ2smTfhnXcg6EkypuJBaWPO0thoEDuzWo913cKIrCVsE7czjOhT0KlI+CNt6UuJFYyLCc0xN5FbJlIiK8THGLhF1W3AK8S4e6r5YLb/SXPRqGujnF82i9sinDa7wK1bmVKzw9kS5ua+UHAAk8MnET4/B5KqWklLgJ4dhqUf8q3lLO66juuOfGWLRuz/mnVbErjMJWcg4v03Eu5sfy9tyK23hj4hYavvWHzlacawqqHnMEEffIsFzeMpPBzZROP4kVitusZyiGOIvn0XplMzu8OBnitk5+AJDAIxM3PjnOh2l06sVPpEiijLiJCq2eI3Bypz8YbskR15LiJheW+HOMwiFEFzIURGWrix7p7F7inOXK97IBkjG/VMLGmxM3OZ8VNAwmn/iCi5xbJ24GZPK4Ja1GVX6/IXETzI93o2kunEdrls2s8FbIErc18gOABB6wuCVUPOHE+fxBrr1m64ib5YgbS6YHwXxDrvSLVn6dvSd13WCquKWLhL+whLV47USH4NJYbOjNPFxYaSvZE7HIWUnEnByLO8noUKhs2Ru/pViohI2Li1uK7cRChvqeHfQgc++l8ti7gzmi6HL3gOlvwZBddPXfZsWNTuJpLp5H65VN2etukq2wwSrCZ6RtTymdHwCoKS9uec+WLCFucply7XmXTr/z/UATmsj9RAzp/DTDIvuYn9gQnJIwOOiS+awV7fGVETdZeVlL0uT7tPieJL5H671B2vYu7eZ2VHPhCFkr92WX+vz0B/Ye56RPPbO9PDszQdzkkvr6mz5LI4vD1ZgmcfESregaH6pSbA0g9yg4HaLAfNKKrS7tYA+hvku9k8AefK9VT2wA1j8sB+B8bpmzFQt/jLc2Dc4nwUkexza1X/XEQoviNi4ibnls548C8HSx5wptnZizOsD38WkGdQ5HwZ41GXf2Lu11fJtIOXGbfm6RYfaCcsPDcFk5P+kFm8BDw5I+RfNozbK5CI/ZwDoY0PBitsjjrmlQ63P4eTHsGMrr2cVkRbxK5wcACsqLW8oVqQhlxI1VvPjJDNHK5dHsa4eMJ8vvg0uj+otOZLK9nLgxfgzI2omerqAZHXJ+iEqY21HNaXxgkh4/zeIJ61XIeCY5ECYSR7ETJFbTIUUiwSGIFnqu+YsUW3lXDnWexU6b4I7tz4m6NX47I4c7e+Gs5KXt9GgxmFXQxkXELZft5ChAmb1U7ohsM3a6ypZOrU+qZfvlxM09aVNjpYwzGz0LbBSncB6tUzYZyvDYpW03qRM/PH2xeEhe8TrPWCc/AIhRQtzuEXFuYNppIt6ct2j5NRenlWwW+f7Es/VyI86E5FfasRQqxBl86t+l720LhnjXWEEZR8YlxwkvPuJswjQbbs7GCtJst4m9VLKM3uH5h8synn6iyYKiebRO2eQsbJCdh8FZkQnpwN42sEEetriBbERrN7JxfYEXHFWG+QslwcIFudoU/GyQH2CTQNweNXKxgHplKdGIuk91ap/cVZ/iETN3yEo6QgrcP8gPsGEgbo+Nm6n49yR96r4M5pSKnFf4T8abin+3dNillj//08i/pQRsHOQHuEsgbo8OsUmaT7xrOpkHY9Z/A7kQR2fxS9sxyf4PLPdTQX6AOwTiBgAAoHJA3AAAAFQOiBsAAIDKAXEDAABQOSBuAAAAKgfEDQAAQOWAuAEAAKgcEDcAAACVA+IGAACgckDcAAAAVA6IGwAAgMoBcQMAAFA5IG4AAAAqB8QNAABA5YC4AQAAqBhE/wdwDV5yQGiGbQAAAABJRU5ErkJggg==" InformativeScreenshot="67f76b2cb3e9d05ccca37941e1d359f1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Property Rates - Property Index and Prices - Real Estate Trends' /&gt;" SearchSteps="Selector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAFGElEQVRYR9VXa0xbZRg+XActkBGiUROj/pgxjkTZ3OJ+qNk04d/8acTon0Xn9sMYNy7ljopzRCRsc0adbmQyshjM2OacW1QScURkrIXS9vRQKPeB3KEU6OXxfb9zWFvbsuwHqG/ypun3Ped7n/f6nSPFZjz6mG7f+V9SKxze1DI7UsvkdVayUeHw6fc3tcbev2WrRMabUysHIwDXV9Mqh6B7s/FPKbWiJyJgQ5RsSxsT9mhqZwKRNjZO/x8EUjSNtBdJ7wUflYC+lDYLrIgrtEJXYkNSsU38Tyiy0X543eiC8PpSGzZp+ETGl0evszACaaRJxeQBHbj/+xFctMyhY9iN1n4XPm+dxLOfORBDB6+SSCuXkUj4zWTknYu3ccU2L/C/O12obZlAVm1PCP6fGkYguURGeoUdV+V5RJIljw9vNw7SoRbhWRLhH6xU0NLn0hChMrfkRU59v0oiQiTCCDCwtmVSe1yVducMlLGAAZ/fjxdOKogvtCHWYMPZjhlth/Z8frT1zsA5saitAO4VH7JqZEof2wglEUKAvX/4iIKpRa940E968LwdMe+1I8VgRP3NCbHOcsk8BelwF56odlBUGAl4yPhrZ6yQCJ9ebMLl7mmxzlLX9hekPDPZWYNAHHm050un9giE17qCDiSXKogj9luqZCws+8TezKIHGWVd2Fs3KP6z3OyfRdzhDujKFEgGGdtrFawQKZah6SXcV26mYl2DAIfz5boB8QDLjd5ZJOSbkFKuUFvZRTfYxpe0XSDrUwteqQ8Q+LF7EjF5nXQWYclQxvsyRuY8Ys/r8+Hpaoso2GCba0aAWaeXdApvpDwrHv+kB9Naelj2nLQh+1QAb73twiZDJ2IKCZ9rxTPHe+HW0sPy/AmbqJtgm+E18JH9Tg2wnG6boFA6kP11P9qH3NqqKtlfMF6+UwMsx34bxzbC76VIWsaXtVVVnjtuXZsAh467oLp5THskXEZnAynYTRGQDnXjGyIZTcbmVBLcHduqu5GwVgpYOXdpJRac/mMcHq9acCzuFS8ONSpo6lSNLdM8yKwyk0cyMsot+M44AT+156rMu1dwoEHGr3a1RaddK3jkg06aG2sUoap2qno74gvM2FFjwetnFeTUydj6sQlJBUb0T6tF1TPuwuZiI/RU8TyMEg1m7Kq14o1vFbx6hjqm0oj00i5MLqpOdAzMIZlamYs52F4EAqoykOe+RBNPyid9txv7GkfFYSynbozQHKCK16abnvDxq/g8FZ97JZDKqusDVJhdYdMwKoEEulT4MokxWMW9kNMwjGm36g1Pwl01XVpBqQfGB+H5PnmL7hHXipoSTl8mRVBtwbsQSKSBs/NEH64rCzhnnEFT9xysQb3PcvSak7w3kjc0jgnPHXLNPo9zt2ZwiS4vZSK0+vMvOMh7jpYSYos1jADPgheDZkGwLHu8OPKTE4m5HSLk7I1EwyunITCMgsW15EFhkwNxube03Id6zxoeAQrT9mMOdA0viFFsHZ1HszxFOezHjmoaSuS5XoxT9TCOwEtf9cE8siAK0zIyj59tk/jwqhNPHTWR5zRJoxhnjVADdso55baoky4UI9IKjUjIM4oQipcREcagw6io+AUktcgUhldfRsLDHqxRi5BDzJ7yr/BAVG9kL3j93vABjUpgo/S/QODuYVo/5Q+TCkeEjQ1S/jTTH/zB/G99nOoPXFak2Aee3Knbf8FE7eLfmHSQjYoePxmXYx/K3P03/GCuq+WG2psAAAAASUVORK5CYII=" InformativeScreenshot="6cb83d683128e2b7d243f12c2898d9d2.jpg" Selector="&lt;html app='chrome.exe' title='Property Rates - Property Index and Prices - Real Estate Trends' /&gt;" Title="Property Rates - Property Index and Prices - Real Estate Trends" Url="https://www.99acres.com/property-rates-and-price-trends-prffid?nn_medium=search&amp;nn_account=google_commercial&amp;nn_campaign=17679475647_139319785875&amp;nn_keyword=&amp;nn_adnetwork=_&amp;nn_adtype=Search&amp;nn_placement=&amp;gclid=CjwKCAjw3ueiBhBmEiwA4BhspJPB3-Ao_YyJA1LekOVHZcqLoC0CXUrS0lEnob2L-F6LUWI_JhfwghoC730QAvD_BwE" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
